@@ -1,0 +1,11 @@
+# docker-composeのバージョン
+version: "3.8"
+
+services:
+  # コンテナの作成
+  web:
+    # このコンテナで使用するDockerイメージの指定
+    image: "nginx:latest"
+    # ホスト側のポート:コンテナ側のポートを指定
+    ports:
+      - "8080:80"
