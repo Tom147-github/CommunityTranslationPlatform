@@ -1,5 +1,5 @@
 # ベースイメージの指定
-FROM nginx:stable-alpine
+FROM mysql:8.0
 
 # 作成した設定ファイルをコンテナ内にコピー
-COPY ./container/web/default.conf /etc/nginx/conf.d/default.conf
+COPY ./container/db/my.conf /etc/my.conf
