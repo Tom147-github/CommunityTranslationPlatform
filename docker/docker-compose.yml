@@ -16,7 +16,7 @@ services:
     # src配下のファイルをコンテナ内の~/va/www/html配下に配置
     volumes:
       - "./src:/var/www/html"
-      
+
   # PHPサーバー
   php:
     # コンテナ名
