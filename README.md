@@ -7,3 +7,7 @@
 Next.js 14
 
 Laravel 10
+
+## Next.js
+
+Atomic Designを適用
