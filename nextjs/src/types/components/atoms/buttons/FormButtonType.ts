@@ -1,3 +1,3 @@
 export type FormButtonType = {
-    text: string;
+  text: string;
 };
