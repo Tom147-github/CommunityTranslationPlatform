@@ -2,10 +2,10 @@
 
 import { ReactElement } from "react";
 
-const FormButton = (): ReactElement => {
+const FormButton = (text): ReactElement => {
     return (
         <button>
-        
+          {text}
         </button>
     );
 };
